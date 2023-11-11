@@ -29,10 +29,6 @@ body{
     background-color: $primary-color;
     border-radius: 5px;
     margin: 12px 0;
-    // transition: all .2s ease-out;
-    &__text{
-      color: $text-grey;
-    }
     .active{
       color: $text-white;
     }
