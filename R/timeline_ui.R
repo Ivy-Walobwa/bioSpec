@@ -3,7 +3,7 @@ timelineUI <- function(id) {
   div(class = "card shadow",
     div(class = "card-body",
         div(class = "card-text",
-        withSpinner(plotlyOutput("timeline", color = "#0099F9"))
+        withSpinner(plotlyOutput(ns("plot")), color = "#0099F9")
  )
     )
     )
