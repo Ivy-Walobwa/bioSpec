@@ -6,7 +6,7 @@ timelineUI <- function(id) {
             h2("Timeline")
         ),
         div(class = "card-text",
-        plotlyOutput("plot")
+        plotlyOutput("timeline")
  )
     )
     )

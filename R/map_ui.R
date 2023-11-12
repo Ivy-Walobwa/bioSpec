@@ -3,7 +3,7 @@ mapUI <- function(id) {
   div(class = "card shadow",
     div(class = "card-body",
         div(class = "card-text",
-            withSpinner(leafletOutput("mymap"), color = "#0099F9"),
+            withSpinner(leafletOutput("leafletMap"), color = "#0099F9"),
         )
     )
     )
