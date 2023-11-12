@@ -1,4 +1,4 @@
-searchInputServer <- function(id, get_data) {
+searchInputServer <- function(id, data) {
   moduleServer(id, function(input, output, session) {
 
     # Filter the data by scientific Name or vernacularName
@@ -8,13 +8,13 @@ searchInputServer <- function(id, get_data) {
       need(input$species_name, "Please select Vernacular name or Scientific name to visualize them here")
     )
 
-    filter_data <- dplyr::filter(get_data(), get_data()$scientificName %in% input$species_name |
-                                   get_data()$vernacularName %in% input$species_name)
+      filter_data <- dplyr::filter(data, data$scientificName %in% input$species_name |
+                                   data$vernacularName %in% input$species_name)
     }, ignoreNULL = FALSE)
 
     observe({
       updateSelectizeInput(session, 'species_name',
-       choices = c(get_data()["scientificName"], get_data()["vernacularName"]),
+       choices = c(data["scientificName"], data["vernacularName"]),
        server = TRUE)
     })
 
