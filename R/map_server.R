@@ -17,7 +17,7 @@ mapServer <- function(id, .data) {
 
       leaflet(filter_data) %>%
       addTiles() %>%
-      setView(lng = 19.25, lat = 52.20, zoom = 6) %>%
+      setView(lng = 19.25, lat = 52.20, zoom = 5) %>%
       addCircleMarkers(
         lat = filter_data$latitudeDecimal,
         lng = filter_data$longitudeDecimal,

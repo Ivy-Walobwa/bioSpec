@@ -6,5 +6,5 @@ library(leaflet)
 library(plotly)
 library(shinycssloaders)
 
-data <- read.csv("./data/poland.csv", header=TRUE, stringsAsFactors=FALSE)
+data <- read.csv("./data/poland-media.csv", header=TRUE, stringsAsFactors=FALSE)
 
