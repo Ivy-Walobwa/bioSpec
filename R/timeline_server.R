@@ -1,6 +1,7 @@
-timelineServer <- function(id, filter_data) {
+timelineServer <- function(id, .data) {
   moduleServer(id, function(input, output, session) {
     output$plot <- renderPlotly({
+      filter_data <- .data()
       # Load the event date
       date <- as.Date(filter_data$eventDate, "%m/%d/%y")
 

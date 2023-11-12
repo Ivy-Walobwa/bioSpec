@@ -1,6 +1,7 @@
-mapServer <- function(id, filter_data) {
+mapServer <- function(id, .data) {
   moduleServer(id, function(input, output, session) {
     output$leafletMap <- renderLeaflet({
+      filter_data <- .data()
       # Leaflet popup features
       filter_data$popup_features <- with(filter_data, paste(
       "<p> <b>Vernacular name:</b>", vernacularName, " </br>",
