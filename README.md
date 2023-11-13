@@ -16,5 +16,5 @@ You can install the development version of bioSpec from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Ivy-Walobwa/bioSpec")
+devtools::install_github("Ivy-Walobwa/bioSpec", dependencies = TRUE)
 ```
