@@ -8,10 +8,8 @@ mapServer <- function(id, .data) {
       "<b>Scientific name:</b>", scientificName, "</br>",
       "<b>Kingdom:</b>", kingdom, "</br>",
       "<b>Family:</b>", family, "</br>",
-      "<b>Sex:</b>", sex, "</br>",
       "<b>Locality:</b>", locality, "</br>",
       "<b>Event Date:</b>", eventDate, "</br>",
-      "<b>Event Time:</b>", eventTime, "</br>",
       "</p>"
       ))
 
