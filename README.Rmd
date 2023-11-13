@@ -20,6 +20,8 @@ knitr::opts_chunk$set(
 
 The goal of bioSpec is to visualize biodiversity data in Poland on a map.
 
+<img width="1440" alt="Screenshot 2023-11-13 at 19 04 39" src="https://github.com/Ivy-Walobwa/bioSpec/assets/49009293/ffc5dde3-a7d8-4e18-b94e-b3c214dbc360">
+
 ## Installation
 
 You can install the development version of bioSpec from [GitHub](https://github.com/) with:
