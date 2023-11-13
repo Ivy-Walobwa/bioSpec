@@ -4,9 +4,7 @@ sideNavigationUI <- function(id) {
     div(class = "close-icon", "X"),
     img(src = "logo.png", class = "img-fluid mb-3", width = "100px"),
     h1(class = "text-white mb-5", "BioSpec"),
-    div(class = "side-wrapper__text mb-3", "Home"),
     div(class = "side-wrapper__text active mb-3", "Dashboard"),
-    div(class = "side-wrapper__text mb-3", "Contact"),
   )
 }
 
