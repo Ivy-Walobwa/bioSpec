@@ -1,5 +1,5 @@
 ui <- fluidPage(
-  title = "Trial",
+  title = "BioSpec",
   theme = bs_theme(version = 5),
   lang = "en",
   tags$head(tags$style(sass(sass_file("www/custom.scss")))),
