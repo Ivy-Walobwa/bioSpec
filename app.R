@@ -1,0 +1,1 @@
+shiny::runApp(appDir = "./inst/app")

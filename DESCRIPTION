@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Ivy", "Walobwa", , "ivywalobwa@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Visualization of animal species observed in Poland on a map.
+Description: Visualization of species observed in Poland on a map.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

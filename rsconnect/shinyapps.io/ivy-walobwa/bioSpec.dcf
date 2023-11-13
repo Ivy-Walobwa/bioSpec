@@ -4,8 +4,8 @@ username: ivy-walobwa
 account: ivy-walobwa
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 10496209
-bundleId: 7919393
+appId: 10505771
+bundleId: 7921221
 url: https://ivy-walobwa.shinyapps.io/bioSpec/
 version: 1
 asMultiple: FALSE

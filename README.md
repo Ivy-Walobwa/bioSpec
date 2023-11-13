@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of bioSpec is to visualize biodiversity data on a map and
-timeline.
+The goal of bioSpec is to visualize biodiversity data in Poland on a
+map.
 
 ## Installation
 
